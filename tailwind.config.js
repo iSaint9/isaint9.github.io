@@ -1,8 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'ganyu-bg': "url('../img/standard-bg.jpg')"
+      },
+      backgroundSize: {
+        'ganyu-bg': "cover"
+      },
+      backgroundPosition: {
+        'ganyu-bg': "center"
+      }
+    },
   },
   plugins: [],
 }
