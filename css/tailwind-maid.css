@@ -642,12 +642,12 @@ video {
 
 .bg-standard-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+  background-color: rgb(252 231 243 / var(--tw-bg-opacity));
 }
 
 .bg-standard-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-60 {
@@ -789,12 +789,12 @@ video {
 
   .md\:border-t-standard-700 {
     --tw-border-opacity: 1;
-    border-top-color: rgb(29 78 216 / var(--tw-border-opacity));
+    border-top-color: rgb(190 24 93 / var(--tw-border-opacity));
   }
 
   .md\:bg-standard-600 {
     --tw-bg-opacity: 1;
-    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+    background-color: rgb(219 39 119 / var(--tw-bg-opacity));
   }
 
   .md\:px-2 {
@@ -823,18 +823,18 @@ video {
 @media (prefers-color-scheme: dark) {
   .dark\:bg-standard-900 {
     --tw-bg-opacity: 1;
-    background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+    background-color: rgb(131 24 67 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-ganyu-bg {
-    background-image: url('../img/ganyu-bg.jpg');
+  .dark\:bg-ram-bg {
+    background-image: url('../img/ram-bg.webp');
     background-size: cover;
     background-position: center;
   }
 
   .dark\:text-standard-100 {
     --tw-text-opacity: 1;
-    color: rgb(219 234 254 / var(--tw-text-opacity));
+    color: rgb(252 231 243 / var(--tw-text-opacity));
   }
 }
 
@@ -842,7 +842,7 @@ video {
   @media (prefers-color-scheme: dark) {
     .md\:dark\:bg-standard-900 {
       --tw-bg-opacity: 1;
-      background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+      background-color: rgb(131 24 67 / var(--tw-bg-opacity));
     }
   }
 }

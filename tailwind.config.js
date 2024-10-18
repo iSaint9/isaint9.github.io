@@ -1,16 +1,22 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
       backgroundImage: {
-        'ganyu-bg': "url('../img/standard-bg.jpg')"
+        'ramlethal-bg': "url('../img/ramlethal-bg.jpg')"
       },
       backgroundSize: {
-        'ganyu-bg': "cover"
+        'ramlethal-bg': "cover"
       },
       backgroundPosition: {
-        'ganyu-bg': "center"
+        'ramlethal-bg': "center"
+      },
+      colors: {
+        'standard': colors.green
       }
     },
   },

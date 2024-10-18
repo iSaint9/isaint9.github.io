@@ -7,7 +7,7 @@
   <title>iSaint9</title>
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/custom.css">
-  <!--<link rel="stylesheet" href="css/tailwind-goat.css">-->
+  <link rel="stylesheet" href="css/tailwind-goat.css">
   <!--<script src="https://cdn.tailwindcss.com"></script>-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,22 +17,25 @@
   <script src="js/main.js"></script>
 </head>
 <body class="lexend-200 h-screen">
-  <div id="mainContainer" class="flex flex-col h-full bg-standard-100">
-    <header class="sticky top-0 h-0 bg-standard-600 dark:bg-standard-900"></header>
-    <main class="grow text-slate-950 dark:text-standard-100 flex md:justify-center md:items-center md:px-2 md:py-1" style="backdrop-filter: blur(10px)">
-      <div class="bg-opacity-60 bg-slate-900 h-full md:h-96 w-full md:w-1/2 lg:w-1/3 2xl:w-1/4 p-3 md:bg-standard-600 md:dark:bg-standard-900 md:rounded-md">
+  <div class="flex flex-col h-full bg-blue-100 dark:bg-container-bg">
+    <header class="sticky top-0 h-0 bg-blue-600 dark:bg-blue-900"></header>
+    <main class="grow text-slate-950 dark:text-blue-100 flex md:justify-center md:items-center md:px-2 md:py-1" style="backdrop-filter: blur(10px)">
+      <div class="bg-opacity-60 bg-slate-900 h-full md:h-96 w-full md:w-1/2 lg:w-1/3 2xl:w-1/4 p-3 md:bg-blue-600 md:dark:bg-blue-900 md:rounded-md">
         <h3 class="text-3xl pb-2 lexend-500 tracking-tight">My links</h3>
-        <hr class="border-t-gray-800 md:border-t-standard-700"/>
-        <div id="buttons" class="py-3 flex flex-col space-y-3">
+        <hr class="border-t-gray-800 md:border-t-blue-700"/>
+        <div class="py-3 flex flex-col space-y-3">
           <a href="https://bsky.app/profile/isaint9.com" class="bg-blue-700 text-blue-50 rounded-md w-full h-10 block text-center leading-10 hover:bg-blue-500 transition-all duration-1000"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
           <a href="https://twitter.com/iSaint9_" class="bg-sky-500 text-cyan-50 rounded-md w-full h-10 block text-center leading-10 hover:bg-sky-400 transition-all duration-1000"><i class="fa-brands fa-twitter"></i> Twitter</a>
           <a href="https://steamcommunity.com/id/isaint9/" class="bg-slate-900 text-slate-50 rounded-md w-full h-10 block text-center leading-10 hover:bg-slate-700 transition-all duration-1000"><i class="fa-brands fa-steam"></i> Steam</a>
           <p class="py-5 italic text-center">More coming soon...</p>
         </div>
+        <div>
+          <button id="testButton">Test</button>
+        </div>
       </div>
     </main>
-    <footer class="sticky bottom-0 z-50 h-10 py-2 text-center bg-standard-600 dark:bg-standard-900 text-slate-950 dark:text-standard-100">
-      <div class="flex justify-center align-middle px-2">
+    <footer class="sticky bottom-0 z-50 h-10 py-2 text-center bg-blue-600 dark:bg-blue-900 text-slate-950 dark:text-blue-100">
+      <div class="flex justify-center md:justify-between align-middle px-2">
         <span>iSaint9</span>
       </div>
     </footer>
